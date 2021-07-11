@@ -1,0 +1,4 @@
+mlp:
+  input_dim: 128
+  hidden_dims: [256, 256, 128, 64]
+  output_dim: 10

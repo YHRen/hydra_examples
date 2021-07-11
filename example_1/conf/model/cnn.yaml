@@ -1,0 +1,4 @@
+cnn:
+  input_channel: 3
+  layers_depth: 10
+  kernnel_size: [32, 64, 32]
