@@ -1,0 +1,9 @@
+_target_: example_2.network.CNN
+defaults:
+  - act: relu
+input_channel: 3
+layers_depth: 10
+kernnel_size: [32, 64, 32]
+activation: 
+  _target_: torch.nn.LeakyReLU
+  negative_slope: 0.02
