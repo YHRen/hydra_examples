@@ -34,10 +34,21 @@ After change this line in `main.py`, run `python main.py`
 
 ## Exercise 3: Recursive Instantiation 
 
-Take a look at `cnn.yaml`, and run 
+Take a look at `cnn.yaml`.
+There are two ways to do recursive instantiation.
 
+### in the defaults (recommended)
+
+All the activations are grouped and placed in the folder `./conf/model/act/`.
+
+To see the default ReLU activation:
 `python main.py model=cnn`
 
-Change the activation to `PReLU`. 
-
+Change the activation to `PReLU`:
 `python main.py model=cnn "model/act=prelu"`
+
+### inside the same config file
+
+As the item `activation` `Sigmoid`. 
+I have not found a way to change it in the command line.
+

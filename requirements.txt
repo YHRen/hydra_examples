@@ -1,0 +1,37 @@
+antlr4-python3-runtime==4.8
+astroid==2.4.2
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+certifi==2021.5.30
+click @ file:///tmp/build/80754af9/click_1621604852318/work
+greenlet==1.1.0
+hydra-core==1.1.0
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1617874469820/work
+importlib-resources==5.2.0
+iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
+isort==5.6.4
+lazy-object-proxy==1.4.3
+mkl-fft==1.3.0
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1618853849286/work
+mkl-service==2.3.0
+more-itertools @ file:///tmp/build/80754af9/more-itertools_1622818384463/work
+msgpack==1.0.2
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1620830962040/work
+olefile==0.46
+omegaconf==2.1.0
+packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
+Pillow @ file:///tmp/build/80754af9/pillow_1625655817137/work
+pluggy @ file:///tmp/build/80754af9/pluggy_1615976321666/work
+py @ file:///tmp/build/80754af9/py_1607971587848/work
+pylint==2.6.0
+pynvim==0.4.3
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pytest==6.2.4
+PyYAML==5.4.1
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+toml==0.10.2
+torch==1.9.0
+torchaudio==0.9.0a0+33b2469
+torchvision==0.10.0
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1624965014186/work
+wrapt==1.12.1
+zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
