@@ -1,21 +1,32 @@
-# Hydra Initialization
+# Configurable object instantiation using Hydra
 
 Add the `__target__` in the config file to point to the python class the config is to control.
 
 ```
-conf
-├── config.yaml
-├── dataset
-│   ├── cifar10.yaml
-│   └── mnist.yaml
-└── model
-    ├── cnn.yaml
-    └── mlp.yaml
+.
+├── conf
+│   ├── config.yaml
+│   ├── dataset
+│   │   ├── cifar10.yaml
+│   │   └── mnist.yaml
+│   └── model
+│       ├── act
+│       │   ├── prelu.yaml
+│       │   └── relu.yaml
+│       ├── cnn.yaml
+│       └── mlp.yaml
+├── demo_pkg
+│   └── network
+│       ├── cnn.py
+│       ├── __init__.py
+│       └── mlp.py
+├── main.py
+└── README.md
 ```
 
 ## Exercise 1: instantiate
 
-In the `mlp.yaml`, add `_target_: example_2.network.MLP`. 
+In the `mlp.yaml`, add `_target_: demo_pkg.network.MLP`. 
 
 In the `main.py`, import instantiate method, 
 `from hydra.utils import instantiate`  and call

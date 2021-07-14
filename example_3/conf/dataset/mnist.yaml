@@ -1,0 +1,6 @@
+mnist:
+  - height: 64
+  - width: 64
+  - channel: 1
+  - train_sz: 50000
+  - valid_sz: 50000

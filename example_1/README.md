@@ -27,7 +27,11 @@ defaults:
 
 `python main.py model=mlp model.mlp.input_dim=64`
 
-## Exercise 3: Multirun for different MLP hidden dims
+## Exercise 3: Add additional argument on the fly 
+
+`python main.py model=mlp +dry_run=true`
+
+## Exercise 4: Multirun for different MLP hidden dims
 
 Use `--multirun` or `-m` for short:
 `python main.py -m model=mlp model.mlp.hidden_dims="[128, 64, 32],[64, 32, 16]"`

@@ -1,0 +1,6 @@
+defaults:
+  - model: mlp
+  - dataset: mnist
+  - metrics:
+    - mae
+    - mse

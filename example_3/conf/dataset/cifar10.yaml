@@ -1,0 +1,6 @@
+cifar10:
+  height: 32
+  width: 32
+  channel: 1
+  train_sz: 50000
+  valid_sz: 10000
