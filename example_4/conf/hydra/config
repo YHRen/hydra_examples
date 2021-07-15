@@ -1,0 +1,5 @@
+defaults:
+  - job_logging : default     # Job's logging config
+  - launcher: basic           # Launcher config
+  - sweeper: basic            # Sweeper config
+  - output: default           # Output directory

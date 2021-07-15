@@ -38,4 +38,14 @@ Use `--multirun` or `-m` for short:
 
 ## Logging
 
-Note that, a default "outputs" and "multirun" folders are created. All the hydra and config info are stored. Very useful for reproducing the results and debugging.
+Note that, a default "outputs" and "multirun" folders are created. All the
+hydra and config info are stored in `.hydra`.  Very useful for reproducing the
+results and debugging.
+
+
+
+
+
+
+
+

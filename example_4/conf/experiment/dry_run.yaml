@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /model: cnn
+  - override /dataset: cifar10
+  
+dry_run: true
+
+# hydra:
+#   run:
+#     dir: /tmp
+#   output_subdir: null
