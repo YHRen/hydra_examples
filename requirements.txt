@@ -1,70 +1,18 @@
-absl-py==0.13.0
-aiohttp==3.7.4.post0
 antlr4-python3-runtime==4.8
 astroid==2.4.2
-async-timeout==3.0.1
-attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
-cachetools==4.2.2
 certifi==2021.5.30
-chardet==4.0.0
-charset-normalizer==2.0.1
-click @ file:///tmp/build/80754af9/click_1621604852318/work
-fsspec==2021.7.0
-future==0.18.2
-google-auth==1.32.1
-google-auth-oauthlib==0.4.4
-greenlet==1.1.0
-grpcio==1.38.1
 hydra-core==1.1.0
-idna==3.2
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1617874469820/work
 importlib-resources==5.2.0
-iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
 isort==5.6.4
 lazy-object-proxy==1.4.3
-Markdown==3.3.4
-mkl-fft==1.3.0
-mkl-random @ file:///tmp/build/80754af9/mkl_random_1618853849286/work
-mkl-service==2.3.0
-more-itertools @ file:///tmp/build/80754af9/more-itertools_1622818384463/work
-msgpack==1.0.2
-multidict==5.1.0
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1620830962040/work
-oauthlib==3.1.1
-olefile==0.46
 omegaconf==2.1.0
-packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
-pandas==1.2.5
-Pillow @ file:///tmp/build/80754af9/pillow_1625655817137/work
-pluggy @ file:///tmp/build/80754af9/pluggy_1615976321666/work
-protobuf==3.17.3
-py @ file:///tmp/build/80754af9/py_1607971587848/work
-pyasn1==0.4.8
-pyasn1-modules==0.2.8
-pyDeprecate==0.3.0
+pip==21.1.3
 pylint==2.6.0
-pynvim==0.4.3
-pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
-pytest==6.2.4
-python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
-pytorch-lightning==1.3.8
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
 PyYAML==5.4.1
-requests==2.26.0
-requests-oauthlib==1.3.0
-rsa==4.7.2
-six @ file:///tmp/build/80754af9/six_1623709665295/work
-tensorboard==2.4.1
-tensorboard-plugin-wit==1.8.0
+setuptools==52.0.0.post20210125
 toml==0.10.2
 torch==1.9.0
-torchaudio==0.9.0a0+33b2469
-torchmetrics==0.4.1
-torchvision==0.10.0
-tqdm==4.61.2
-typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1624965014186/work
-urllib3==1.26.6
-Werkzeug==2.0.1
+typing-extensions==3.10.0.0
+wheel==0.36.2
 wrapt==1.12.1
-yarl==1.6.3
-zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
+zipp==3.5.0
