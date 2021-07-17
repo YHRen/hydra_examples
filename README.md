@@ -5,14 +5,14 @@
 Key packages needed are `hydra` and `pytorch`.
 
 ```
-conda env create -f requirements.yaml -n <your_env_name>
-conda activate  <your_env_name>
+conda env create -f environment.yml -n hydra1.1
+conda activate  hydra1.1
 ```
 
-If you are using pip and venv, 
+If you are using `pip` and `venv`, 
 ```
-python3 -m venv <your_env_name>
-source <your_env_name>/bin/activate
+python3 -m venv hydra1.1
+source hydra1.1/bin/activate
 pip install -r requirements.txt
 ```
 
