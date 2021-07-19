@@ -1,16 +1,14 @@
+import logging
 from omegaconf import DictConfig, OmegaConf
 import hydra
 from hydra.utils import instantiate 
-import demo_pkg
-import torch
 
 @hydra.main(config_path="conf", config_name="config")
 def my_app(cfg: DictConfig) -> None:
-    print(OmegaConf.to_yaml(cfg))
-    print(type(cfg.model), cfg.model)
+    logging.info(OmegaConf.to_yaml(cfg))
     model = instantiate(cfg.model)
     # model = instantiate(cfg.model, _convert_="partial")
-    print(type(model))
+    logging.info("instantiated model has type of "+repr(model))
 
 if __name__ == "__main__":
     print("hydra version: ", hydra.__version__)

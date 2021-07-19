@@ -45,10 +45,18 @@ After change this line in `main.py`, run `python main.py`
 
 ## Exercise 3: Recursive Instantiation 
 
-Take a look at `cnn.yaml`.
+Take a look at `cnn.yaml`.  
 There are two ways to do recursive instantiation.
+One is to define a new `_target_` in the same file, and the other is to use
+`defaults` list.
+Note that the activation function has been instantiated before passing into the model initialization.
 
-### in the defaults (recommended)
+```
+Initializing CNN:
+act : ReLU(inplace=True)        <class 'torch.nn.modules.activation.ReLU'>
+```
+
+## Exercise 4: Change activation to PReLU
 
 All the activations are grouped and placed in the folder `./conf/model/act/`.
 
@@ -56,10 +64,9 @@ To see the default ReLU activation:
 `python main.py model=cnn`
 
 Change the activation to `PReLU`:
-`python main.py model=cnn "model/act=prelu"`
+`python main.py model=cnn 'model/act=prelu'`
 
-### inside the same config file
+and assign PReLU's init value to 0.3
+`python main.py model=cnn 'model/act=prelu' model.act=0.3`
 
-As the item `activation` `Sigmoid`. 
-I have not found a way to change it in the command line.
-
+Note, here is a caveat that `model.act=prelu` does not work.

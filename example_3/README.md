@@ -4,8 +4,6 @@ Often times in ML applications we'd like to include a list of metrics or callbac
 For example, we'd like to monitor the model performance in terms of MSE, MAE, F1, mAP and so on.
 We can create a configuration group named `metrics` and put all different choices inside it.
 
-Add the `__target__` in the config file to point to the python class the config is to control.
-
 ```
 .
 ├── conf
@@ -50,7 +48,7 @@ Try to add more configurations, and run `python main.py`.
 To remove mse and add f1 metric in the command line.
 
 ```
-python main.py "metrics=[mae,f1]"
+python main.py 'metrics=[mae,f1]'
 ```
 
 

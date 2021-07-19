@@ -1,11 +1,12 @@
 class MLP:
-    def __init__(self, **params):
+    def __init__(self, input_dim, hidden_dims, output_dim=3):
+        """
+            example of showing initialization with positional arguments
+        """
         print("\nInitializing "+self.__class__.__qualname__+": ")
-        for k, v in params.items():
-            print(str(k)+" : "+str(v)+"\t"+str(type(v)))
+        self.in_dim = input_dim
+        self.hd_dim = hidden_dims
+        self.ot_dim = output_dim
+        for k, v in self.__dict__.items():
+            print(k, ":", v)
         print("="*80)
-    # also supports positional and default args
-    # def __init__(self, input_dim, hidden_dims, output_dim=3):
-    #     self.idim = input_dim
-    #     self.hdim = hidden_dims
-    #     self.odim = output_dim

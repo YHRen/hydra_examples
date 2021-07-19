@@ -4,5 +4,5 @@ defaults:
 input_channel: 3
 layers_depth: 10
 kernnel_size: [32, 64, 32]
-activation: 
-  _target_: torch.nn.Sigmoid
+# activation: 
+#   _target_: torch.nn.Sigmoid

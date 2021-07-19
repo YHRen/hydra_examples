@@ -6,32 +6,32 @@ In this session, let's take a look how to group the common changes into an exeri
 
 Take a look at the `experiments` folder.
 
-Add the `__target__` in the config file to point to the python class the config
-is to control.
 
 ```
-.
-├── conf
-│   ├── config.yaml
-│   ├── dataset
-│   │   ├── cifar10.yaml
-│   │   └── mnist.yaml
-│   └── model
-│       ├── act
-│       │   ├── prelu.yaml
-│       │   └── relu.yaml
-│       ├── cnn.yaml
-│       └── mlp.yaml
-├── demo_pkg
-│   └── network
-│       ├── cnn.py
-│       ├── __init__.py
-│       └── mlp.py
-├── main.py
-└── README.md
+conf
+├── config.yaml
+├── dataset
+│   ├── cifar10.yaml
+│   └── mnist.yaml
+├── experiment
+│   ├── dry_run.yaml
+│   ├── f1_exp.yaml
+│   └── mae_exp.yaml
+├── hydra
+│   └── config
+├── metrics
+│   ├── f1.yaml
+│   ├── mae.yaml
+│   └── mse.yaml
+└── model
+    ├── act
+    │   ├── prelu.yaml
+    │   └── relu.yaml
+    ├── cnn.yaml
+    └── mlp.yaml
 ```
 
-## Exercise 1: create a dry run experiment yaml
+## Exercise 1: create a "dry run" experiment yaml
 
 ```
 # @package _global_
@@ -120,7 +120,7 @@ Remind that `.hydra` contains all the config options we used to run the job.
 A more useful way is to give different experiments 
 a name and set the output accordingly.
 
-Try to uncomment the lines in `f1_exp.yaml` and give it a try.
+Try to uncomment the lines in `./conf/experiment/f1_exp.yaml` and give it a try.
 
 
 ## Exercise 5: Adding a configuration group not in default list
