@@ -67,6 +67,6 @@ Change the activation to `PReLU`:
 `python main.py model=cnn 'model/act=prelu'`
 
 and assign PReLU's init value to 0.3
-`python main.py model=cnn 'model/act=prelu' model.act=0.3`
+`python main.py model=cnn 'model/act=prelu' model.act.init=0.3`
 
 Note, here is a caveat that `model.act=prelu` does not work.

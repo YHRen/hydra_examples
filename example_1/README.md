@@ -50,3 +50,10 @@ Note that, a default "outputs" and "multirun" folders are
 created. All the hydra and config info are stored in
 `.hydra`.  Very useful for reproducing the results and
 debugging.
+
+## Exercise 6: Install tab completion: bash, zsh, fish, etc
+
+To see the instruction:
+```
+python main.py --hydra-help
+```

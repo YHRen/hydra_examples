@@ -8,5 +8,5 @@ def my_app(cfg: DictConfig) -> None:
     logging.info(cfg_dict)
 
 if __name__ == "__main__":
-    print("hydra version: ", hydra.__version__)
+    #print("hydra version: ", hydra.__version__)
     my_app()

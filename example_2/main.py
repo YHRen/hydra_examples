@@ -1,5 +1,6 @@
 import logging
-from omegaconf import DictConfig, OmegaConf
+from omegaconf import DictConfig
+from omegaconf import OmegaConf
 import hydra
 from hydra.utils import instantiate 
 
@@ -11,5 +12,4 @@ def my_app(cfg: DictConfig) -> None:
     logging.info("instantiated model has type of "+repr(model))
 
 if __name__ == "__main__":
-    print("hydra version: ", hydra.__version__)
     my_app()
