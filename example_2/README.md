@@ -1,6 +1,6 @@
 # Configurable object instantiation using Hydra
 
-Add the `__target__` in the config file to point to the python class the config is to control.
+Add the `_target_` in the config file to point to the python class the config is to control.
 
 ```
 .
