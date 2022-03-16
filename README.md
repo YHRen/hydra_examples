@@ -54,4 +54,6 @@ TODO:
 - [x] configure experiments [link](https://hydra.cc/docs/patterns/configuring_experiments)
 - [ ] plugins: submitit (slurm), ray, optuna.
 - [ ] integration with lightning.
+- [ ] adding original working directory to the config file. [link](https://github.com/facebookresearch/hydra/issues/1680) `${hydra:runtime.cwd}`
+
 
